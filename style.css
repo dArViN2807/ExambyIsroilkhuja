@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @font-face {
+    font-family: DmSans;
+    src: url(D:\Najot Talim darslar\1-oy\1-oy exam\fonts);
+  }
+}
+.container {
+  background-color: #191919;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #191919;
+  border-radius: 0px;
+  height: 119px;
+  padding-left: 50.58px;
+  padding-right: 70px;
+}
+.home {
+  display: flex;
+  gap: 10px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  font-family: "DmSans" sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+}
+.link1 {
+  color: #118da8;
+}
+.link:hover {
+  transition: all 0, 5s;
+  color: red;
+  cursor: pointer;
+}
+.firstpage {
+  display: flex;
+  justify-content: space-between;
+  background-color: #191919;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 134px;
+}
+.left {
+  background-image: url(./images/Background.png);
+  height: 873px;
+  width: 650px;
+  position: relative;
+}
+.wave {
+  position: absolute;
+  left: 100px;
+  top: 90px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 610px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 88px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  max-width: 45%;
+  position: relative;
+}
+.right .linekrivoy {
+  position: absolute;
+  top: 210px;
+  left: -15px;
+}
+.right b {
+  font-weight: 900;
+  font-size: 70px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.listenon h1 {
+  font-size: 20px;
+}
+.icon {
+  display: flex;
+  gap: 17px;
+}
+.secondpage {
+  margin-top: 119px;
+  color: #ffff;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #ffffff;
+  padding-bottom: 260px;
+}
+.secondheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 66px;
+}
+.secondbutton {
+  display: flex;
+  background: #118da8;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  align-items: center;
+  height: 51px;
+}
+.card {
+  height: 545px;
+  display: flex;
+  padding-left: 100px;
+  background-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.imageincard {
+  background-image: url(./images/Card1.png);
+  width: 55%;
+  background-size: cover;
+}
+.textincard span {
+  width: 6%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background-color: #191919;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.textincard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 45px;
+}
+.textincard p {
+  color: #118da8;
+  font-size: 20px;
+}
+.textincard span2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.textincard button {
+  width: 208px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background-color: #118da8;
+  color: #ffff;
+}
+.card2 {
+  height: 545px;
+  display: flex;
+  padding-left: 100px;
+  background-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+.card2 span {
+  width: 135px;
+}
+.card2 .imageincard {
+  background-image: url(./images/card2.png);
+  width: 589px;
+}
+.card3 {
+  height: 545px;
+  display: flex;
+  padding-left: 100px;
+  background-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 60px;
+}
+.card3 .imageincard {
+  background-image: url(./images/Card3.png);
+  width: 539px;
+}
+.thirdpage {
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  align-items: center;
+  gap: 94px;
+  justify-content: space-between;
+  padding-bottom: 200px;
+}
+
+.right3 {
+  background-image: url(./images/Background.png);
+  height: 873px;
+  width: 650px;
+}
+.left3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 650px;
+}
+.left3 p {
+  color: #118da8;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #ffffff;
+}
+.left3 span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fourthpage p {
+  color: #118da8;
+}
+.fourthpage {
+  background-color: black;
+  padding-top: 59px;
+  padding-left: 60px;
+  padding-bottom: 75px;
+  padding-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 227px;
+}
+.right4 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  position: relative;
+}
+.Firstpageline {
+  position: absolute;
+  left: 15px;
+  top: 4650px;
+}
+.right4 input {
+  background: #191919;
+  border: 1px solid #191919;
+  border-radius: 6px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-right: 300px;
+  padding-left: 20px;
+  outline: none;
+  color: white;
+}
+.right4 input:hover {
+  transition: all 0.5s;
+  background-color: aqua;
+  color: red;
+}
+.right4 button {
+  width: 87px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #118da8;
+  color: #ffff;
+}
+.fifthpage {
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #191919;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.stage {
+  background-color: black;
+  width: 423px;
+  padding-left: 50px;
+  padding-top: 54px;
+  padding-right: 60px;
+  padding-bottom: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  box-sizing: border-box;
+  height: 340px;
+}
+.stage h2 {
+  color: #fff;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+}
+.stage p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 30px;
+}
+footer {
+  padding-right: 303px;
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link2 {
+  text-decoration: none;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footerhome a {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.footerhome2 a {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.leftfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.icon2 {
+  width: 32px;
+  height: 32px;
+  display: flex;
+}
+.footerhome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footerhome2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rightfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 146px;
+  padding-right: 100px;
+}
